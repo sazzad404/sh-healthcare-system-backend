@@ -1,0 +1,152 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doctor Application Update - SH Healthcare System</title>
+</head>
+
+<body style="margin:0;padding:0;background-color:#f5f8fc;font-family:Arial,Helvetica,sans-serif;color:#172033;">
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0"
+    style="background-color:#f5f8fc;padding:48px 16px;">
+    <tr>
+      <td align="center">
+
+        <table width="100%" cellpadding="0" cellspacing="0" border="0"
+          style="max-width:580px;background-color:#ffffff;border-radius:18px;overflow:hidden;">
+
+          <!-- Header -->
+          <tr>
+            <td style="padding:28px 34px;border-bottom:1px solid #eef2f7;">
+              <div style="display:inline-block;width:38px;height:38px;line-height:38px;text-align:center;background-color:#2563eb;color:#ffffff;border-radius:10px;font-size:18px;font-weight:700;vertical-align:middle;">
+                SH
+              </div>
+              <span style="margin-left:10px;color:#172033;font-size:17px;font-weight:700;vertical-align:middle;">
+                SH Healthcare System
+              </span>
+            </td>
+          </tr>
+
+          <!-- Content -->
+          <tr>
+            <td style="padding:42px 38px 38px;">
+
+              <p style="margin:0 0 12px;color:#dc2626;font-size:13px;font-weight:600;letter-spacing:0.4px;">
+                APPLICATION UPDATE
+              </p>
+
+              <h1 style="margin:0 0 16px;color:#111827;font-size:28px;line-height:1.25;font-weight:700;">
+                Doctor Application Update
+              </h1>
+
+              <p style="margin:0 0 10px;color:#334155;font-size:15px;line-height:1.7;">
+                Hello <strong><%= name %></strong>,
+              </p>
+
+              <p style="margin:0 0 24px;color:#64748b;font-size:15px;line-height:1.75;">
+                Thank you for your interest in joining SH Healthcare System.
+                After carefully reviewing your application, we regret to
+                inform you that your doctor application has not been approved.
+              </p>
+
+              <!-- Rejection Status -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                style="background-color:#fef2f2;border:1px solid #fecaca;border-radius:14px;">
+                <tr>
+                  <td align="center" style="padding:25px 20px;">
+
+                    <div style="width:48px;height:48px;line-height:48px;background-color:#fee2e2;border-radius:50%;color:#dc2626;font-size:24px;font-weight:700;text-align:center;">
+                      !
+                    </div>
+
+                    <p style="margin:14px 0 6px;color:#991b1b;font-size:18px;font-weight:700;">
+                      Application Not Approved
+                    </p>
+
+                    <p style="margin:0;color:#b91c1c;font-size:13px;line-height:1.6;">
+                      Your application did not meet the current approval requirements.
+                    </p>
+
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Rejection Reason -->
+              <% if (rejectionReason) { %>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                style="margin-top:24px;background-color:#f8faff;border:1px solid #dbeafe;border-radius:12px;">
+                <tr>
+                  <td style="padding:20px;">
+
+                    <p style="margin:0 0 10px;color:#334155;font-size:13px;font-weight:700;">
+                      Reason for Rejection
+                    </p>
+
+                    <p style="margin:0;color:#64748b;font-size:14px;line-height:1.75;">
+                      <%= rejectionReason %>
+                    </p>
+
+                  </td>
+                </tr>
+              </table>
+              <% } %>
+
+              <p style="margin:24px 0 0;color:#64748b;font-size:15px;line-height:1.75;">
+                We encourage you to review the feedback provided above
+                and address any identified issues. You may contact our
+                support team if you have questions regarding this decision.
+              </p>
+
+              <!-- Closing Note -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                style="margin-top:28px;border-top:1px solid #eef2f7;">
+                <tr>
+                  <td style="padding-top:24px;">
+
+                    <p style="margin:0 0 8px;color:#334155;font-size:13px;font-weight:600;">
+                      Thank You
+                    </p>
+
+                    <p style="margin:0;color:#64748b;font-size:13px;line-height:1.7;">
+                      We appreciate your time and effort in applying
+                      to SH Healthcare System and wish you success
+                      in your professional journey.
+                    </p>
+
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding:24px 38px;background-color:#fafbfc;border-top:1px solid #eef2f7;">
+
+              <p style="margin:0 0 6px;color:#475569;font-size:12px;font-weight:600;">
+                SH Healthcare System
+              </p>
+
+              <p style="margin:0;color:#94a3b8;font-size:11px;line-height:1.6;">
+                This is an automated message. Please do not reply to this email.
+              </p>
+
+              <p style="margin:10px 0 0;color:#94a3b8;font-size:11px;">
+                &copy; 2026 SH Healthcare System. All rights reserved.
+              </p>
+
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+```
